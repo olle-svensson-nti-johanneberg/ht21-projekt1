@@ -1,0 +1,45 @@
+.wrapper{
+    display: grid;
+    grid-template-areas: 
+    'hd'
+    'mn'
+    'ft';
+    grid-template-rows: 10rem 80rem 10rem;
+ 
+}
+
+#storpizza{
+    background-image: url(./img/Pizza\ banner.jpg);
+    grid-area: sp;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
+header {
+
+    grid-area: hd;
+    background-color: brown;
+}
+
+#treboxar{
+    grid-area: tb;
+}
+
+main{
+    grid-area: mn;
+    background-color: blue;
+    display: grid;
+    grid-template-areas: 
+    'sp'
+    'tb';
+    grid-template-rows: 32rem 10rem;
+}
+
+footer{
+    grid-area: ft;
+    background-color: blueviolet;
+}
+
+
+
